@@ -1,0 +1,5 @@
+paises = input('Ingresa una lista de paises separados por una coma ","')
+set = set(paises.split(','))
+res = ','.join(sorted(set))
+print(res)
+a = input('Fin')
